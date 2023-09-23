@@ -2,8 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Roboto:wght@400&display=swap');
 
 :root {
+
+    /*Primary color and Background*/
     --primary-color: #4626cf;
+
+    /*Secondary color*/
     --secundary-color: #5a36db;
+
     --accent-1: #6e46e7;
+
+    /*Text*/
     --accent-2: white;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--secundary-color);
+}
+
+main {
+    background-color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secundary-color);
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+h2, h3, h4 {
+    font-family: Montserrat;
+}
+
+p, li {
+    font-family: Roboto;
+}
+
+.center-images {
+    text-align: center;
 }
