@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #818479;
+    --secondary-color: #b5cbb7;
+    --accent-1: #d2e4c4;
+    --accent-2: #e4e9b2;
+    --text: black;
+}
+
+body {
+    text-align: center;
+    font-family: Roboto;
+}
+
+p {
+    text-align: left;
+}
+
+ul li {
+    text-align: left;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--accent-2);
+    margin: 0;
+}
+
+h2 {
+    background-color: var(--primary-color);
+    color: var(--accent-2);
+}
+
+.chamber {
+    text-align: center;
+    font-size: 30px;
+}
+
+.color1 {
+    color: #818479;
+    text-align: center;
+    background-color: black;
+}
+
+.color2 {
+    color: #b5cbb7;
+    text-align: center;
+    background-color: black;
+}
+
+.color3 {
+    color:var(--accent-1);
+    text-align: center;
+    background-color: black;
+}
+
+.color4 { 
+    color:var(--accent-2);
+    text-align: center;
+    background-color: black;
+}
+
+.color5 {
+    color:var(--text);
+    text-align: center;
+    background-color: grey;
+}
+
+.colorCenter{
+    text-align: center;
+}
+
+.ulFonts {
+    font-size: 30px;
+    list-style-type: none
+}
+
+.ulFonts li {
+    text-align: center;
+}
+
+.pFonts {
+    text-align: center;
+}
