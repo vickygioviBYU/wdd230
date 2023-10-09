@@ -28,13 +28,13 @@ button.addEventListener('click', () => {
     
             input.value = ''
         } else {
-            console.log("Book doesn't exist")
+            document.querySelector("strong").textContent = "Book doesn't exist"
         }
 
         
 
     } else {
-        console.log("input in blank")
+        document.querySelector("strong").textContent = "Input in blank"
     }
 })
 

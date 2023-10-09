@@ -67,3 +67,8 @@ li {
 		width: 320px;
 	}
 }
+
+strong {
+	color: red;
+	text-align: center;
+}
