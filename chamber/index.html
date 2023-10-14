@@ -38,7 +38,7 @@
 </head>
 <body>
     <header>
-        <img src="images/montevideo.jpg" alt="Montevideo, Uruguay">
+        <img src="images/logo.webp" alt="Logo">
         <h1>Chamber of Commerce of Uruguay</h1>
     </header>
     <a id="menu" href="#"></a>
@@ -51,13 +51,21 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 700px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img class="img-hero" src="images/hero-large.webp" alt="Large Image Week 06">
+            </picture>
+            
+        </div>
         <div class="community-news">
             <div class="community-news-child">
                 <h2>Community News</h2>
             </div>
             <p class="paragraph1">The International Labor Organization (ILO) launched a global communications campaign called "Towards Social Justice", aimed at intensifying efforts to address inequalities in the world of work. High levels of inequality, aggravated by current crises, have a high human and economic cost and threaten the already slow progress towards the UN Sustainable Development Goals (SDGs). ILO data show that 4 billion people lack social protection, one of the best ways out of inequality; no less than 453 million people who would like to work cannot find a job; and 214 million workers live on less than $1.90 a day.</p>
-            <img class="image1" src="images/FormatFactoryFormatFactoryclientes2-1.png" alt="businesses">
-            <img class="image2" src="images/descarga.jfif" alt="uruguay natural">
+            <img class="image1" src="images/FormatFactoryFormatFactoryclientes2-1.webp" alt="businesses">
+            <img class="image2" src="images/descarga.webp" alt="uruguay natural">
             <p class="paragraph2">Nicolás Butin, head of the Partners Department, together with the General Manager, Luis Bajac, attended the 100-year anniversary of the Commercial and Industrial Center of Colonia Switzerland. An entrepreneur fair was held in the Plaza de Los Fundadores in front of the Shopping Center headquarters, and musical shows and typical Swiss dances were also held. The event included a space to recognize the oldest businesses in the city and its area, some dating back more than 100 years. The CCSUY presented an institutional gift as well as words of celebration of this institutional milestone.</p>
         </div>
         <div class="weather">
@@ -69,7 +77,13 @@
                     Montevideo, Uruguay
                 </strong>
                 <h3>
-                    70º C
+                    Temperature: <strong id="temperature">40</strong> ºF
+                </h3>
+                <h3>
+                    Windspeed: <strong id="windspeed">35</strong> MPH
+                </h3>
+                <h3>
+                    Windchill: <strong id="windchill"></strong> ºF
                 </h3>
             </div>
         </div>
@@ -89,5 +103,6 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

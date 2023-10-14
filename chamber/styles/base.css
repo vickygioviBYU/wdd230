@@ -177,3 +177,17 @@ h2 {
     background-color: var(--secondary-color);
     border: 1px solid black;
 }
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: auto;
+    height: 200px;
+}
+
+header img {
+    width: auto;
+    height: 75px;
+}

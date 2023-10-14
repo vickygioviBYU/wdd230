@@ -57,4 +57,9 @@
     .businesses.paragraph4 {
         grid-column: 2 / 3;
     }
+
+    .hero img {
+        width: auto;
+        height: 500px;
+    }
 }
