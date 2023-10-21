@@ -1,4 +1,23 @@
 @media only screen and (min-width: 1000px) {
+
+    .mainDiscover {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .sidebar {
+        display: block;
+        grid-column: 1 / 2;
+    }
+
+    .demografias {
+        width: 300px
+    }
+
+    .main {
+        grid-column: 2 / 4;
+        height: 3150px;
+    }
 	.community-news {
         display: grid;
         grid-column: 1 / 2;

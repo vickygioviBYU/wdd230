@@ -6,6 +6,10 @@
     --text: black;
 }
 
+
+
+
+
 header {
     text-align: center;
 }
@@ -90,6 +94,10 @@ nav {
 main {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.sidebar {
+    display: none;
 }
 
 .community-news {
@@ -203,3 +211,9 @@ header img {
     width: auto;
     height: 75px;
 }
+
+.photos {
+    height: auto;
+    width: 100%;
+}
+
