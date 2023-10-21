@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+img {
+    margin: 0 auto;
+    grid-column: 1 / 2;
+}
+
+.fade-in-image:hover { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
