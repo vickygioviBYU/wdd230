@@ -16,16 +16,18 @@ function toggleDarkMode() {
 
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
+
+
 if (numVisits !== 0) {
     let datePlusDay = Number(localStorage.getItem("date")) + 86400000
     if (Date.now() < datePlusDay) {
-        alert("Back so soon! Awesome!")
+        document.querySelector("#alert").textContent = "Back so soon! Awesome!"
     } else {
         let days = Math.floor((Date.now() - Number(localStorage.getItem("date"))) / 86400000)
         if (days !== 1) {
-            alert("You last visited" + days + "days ago.")
+            document.querySelector("#alert").textContent = "You last visited" + days + "days ago."
         } else {}
-            alert("You last visited" + days + "day ago.")
+        document.querySelector("#alert").textContent = "You last visited" + days + "day ago."
     }
 } else {
 	alert("Welcome! Let us know if you have any questions.");

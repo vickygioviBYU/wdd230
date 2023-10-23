@@ -23,6 +23,7 @@ body {
     font-family: Roboto;
     background-color: var(--accent-2);
     color: var(--text);
+    font-display: optional
 }
 
 .dark-mode {

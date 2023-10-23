@@ -38,10 +38,10 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.webp" alt="Logo">
+        <img src="images/logo.webp" alt="Logo" height="200" width="200">
         <h1>Chamber of Commerce of Uruguay</h1>
     </header>
-    <a id="menu" href="#"></a>
+    <a id="menu" href="#" aria-label="Menu"></a>
     <nav> 
         <ul class="navigation">
             <li><a href="index.html">Home</a></li>
@@ -52,23 +52,24 @@
     </nav>
     <button id="toggleDarkMode">Toggle Dark Mode</button>
     <main class="mainDiscover">
+        <h3 id="alert"></h3>
         <div class="sidebar">
-            <img class="demografias" src="images/demografia1.JPG" alt="Demografia 1">
-            <img class="demografias" src="images/demografia2.JPG" alt="Demografia 2">
-            <img class="demografias" src="images/demografia3.JPG" alt="Demografia 3">
+            <img loading="lazy" class="demografias" src="images/demografia1.JPG" alt="Demografia 1">
+            <img loading="lazy" class="demografias" src="images/demografia2.JPG" alt="Demografia 2">
+            <img loading="lazy" class="demografias" src="images/demografia3.JPG" alt="Demografia 3">
         </div>
         <div class="main">
-            <img loading="lazy" class="photos" src="images/foto1.webp" alt="Chamber of Commerce">
+            <img class="photos" src="images/foto1.webp" alt="Chamber of Commerce" height="400" width="219">
             <h3>Chamber of Commerce of Uruguay</h3>
-            <img loading="lazy" class="photos" src="images/foto2.webp" alt="Chamber of Commerce 2">
+            <img loading="lazy" class="photos" src="images/foto2.webp" alt="Chamber of Commerce 2" height="400" width="266">
             <h3>Chamber of Commerce of Uruguay Building</h3>
-            <img loading="lazy" class="photos" src="images/foto3.webp" alt="Chamber of Commerce 3">
+            <img loading="lazy" class="photos" src="images/foto3.webp" alt="Chamber of Commerce 3" height="400" width="300">
             <h3>Bolsa de Comercio (Spanish)</h3>
-            <img loading="lazy" class="photos" src="images/foto4.webp" alt="Chamber of Commerce 4">
+            <img loading="lazy" class="photos" src="images/foto4.webp" alt="Chamber of Commerce 4" height="400" width="300">
             <h3>People in gathering</h3>
-            <img loading="lazy" class="photos" src="images/foto5.webp" alt="Montevideo">
+            <img loading="lazy" class="photos" src="images/foto5.webp" alt="Montevideo" height="400" width="225">
             <h3>Montevideo Downtown</h3>
-            <img loading="lazy" class="photos" src="images/foto6.webp" alt="Montevideo 2">
+            <img loading="lazy" class="photos" src="images/foto6.webp" alt="Montevideo 2" height="400" width="225">
             <h3>Montevideo Coast</h3>
 
         </div>
@@ -80,6 +81,5 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>
