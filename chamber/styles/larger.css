@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1000px) {
 
+
     .mainDiscover {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -28,6 +29,19 @@
     main {
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    .mainJoin {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        grid-column: 1 / 2;
+    }
+
+    .sideform {
+        grid-column: 2 / 3;
     }
 
     .community-news-child {

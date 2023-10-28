@@ -1,4 +1,20 @@
 @media only screen and (min-width: 700px) {
+    
+    .mainJoin {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mainDiscover {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .sidebar {
+        display: block;
+        grid-column: 1 / 2;
+    }
+
     .navigation {
 		display: flex;
 	}

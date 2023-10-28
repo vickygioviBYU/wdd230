@@ -4,11 +4,110 @@
     --accent-1: #d2e4c4;
     --accent-2: #e4e9b2;
     --text: black;
+    --header-background-color: #ddd;
+    --form-fieldset: #424242;
+    --label-top-color: #9c2c13;
 }
 
+/*----------- BODY --------------*/
+
+
+/*----------- HEADER --------------*/
+
+/*----------- NAVIGATION --------------*/
+
+/*----------- MAIN --------------*/
 
 
 
+/*----------- FOOTER --------------*/
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+
+/*FORM*/
+
+
+
+.textarea {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.textarealabel{
+    margin-left: 20px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--form-fieldset);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form label {
+    text-align: left;
+}
+
+form legend {
+    color: var(--form-fieldset);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--label-top-color);
+    font-size: .8rem;
+    margin-left: 20px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    margin-left: 20px;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--label-top-color);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    margin-left: 20px;
+}
+
+form input.submitBtn:hover {
+    background-color: darkred;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
 
 header {
     text-align: center;
@@ -95,6 +194,12 @@ nav {
 main {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+
+
+form {
+    grid-column: 1 / 2;
 }
 
 .sidebar {
@@ -218,3 +323,10 @@ header img {
     width: 100%;
 }
 
+.sideform {
+    text-align: center;
+}
+
+.lastImg {
+    margin-bottom: 20px;
+}

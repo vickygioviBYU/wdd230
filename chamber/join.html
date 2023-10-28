@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="Website of the Chamber of Commerce of Uruguay">
+    <meta name="author" content="Giovanni Canavesi">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Chamber of Commerce of Uruguay">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://montevideo.gub.uy/sites/default/files/biblioteca/dsc0263_1.jpg">
+    <meta property="og:url" content="https://www.cncs.com.uy/">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--ROBOTO: Paragraphs-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--MOTSERRAT: Headings 2 to 6-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--DELA GOTHIC ONE: Heading 1-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <title>Chamber of Commerce</title>
+    
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Logo">
+        <h1>Chamber of Commerce of Uruguay</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav> 
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <button id="toggleDarkMode">Toggle Dark Mode</button>
+    <main>
+        <div class="mainJoin">
+            <form method="GET", action="thankyou.html">
+                <label class="top">First Name <input type="text" required name="fname" id="fname"></label>
+                <label class="top">Last Name <input type="text" required name="lname" id="lname"></label>
+                <label class="top">Title or Position <input type="text" name="title" id="title" pattern="[\a\- ]+$"></label>
+                <label class="top">Email Adress <input type="email" name="email" id="email" required placeholder="example@example.com"></label>
+                <label class="top">Mobile Phone Number <input type="tel" required name="phone" id="phone"></label>
+                <label class="top">Organization's Name <input type="text" required name="organization" id="organization"></label>
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="membership" value="NP"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+    
+                <br>
+                <label class="textarealabel">Organization's Description <textarea class="textarea" name="description" id="description" cols="30" rows="10"></textarea></label>
+                <label><input type="hidden" name="timestamp", id="timestamp"></label>
+    
+                <input class="submitBtn" type="submit" value="Join to the Chamber">
+            </form>
+            <div class="sideform">
+                <h2>Membership Benefits</h2>
+                <h3>NP Membership</h3>
+                <p>With the non-paid membership, you can access to the following event discounts:</p>
+                <h3>360 Economic Summits</h3>
+                <img src="images/CAN360_2023 (1).webp" alt="Economic Summit" width="400" height="199">
+                <h3>Bronze Membership</h3>
+                <p>You can access to the following:</p>
+                <h3>Stampede 2023</h3>
+                <img src="images/lee-pigott-B3SoLw5pM4s-unsplash-scaled.webp" alt="Stampede" width="400" height="225">
+                <h3>Silver Membership</h3>
+                <p>Some important events are available for you:</p>
+                <h3>Business Leader Awards</h3>
+                <img src="images/Award_Event_Hero-1.webp" alt="Leader Awards" width="400" height="255">
+                <h3>Gold Membership</h3>
+                <p>You have the enter for the top of executive events.</p>
+                <h3>Executive Summit Series</h3>
+                <img class="lastImg" src="images/IMG_5129-scaled_2.webp" alt="Executive meetings">
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p class="pfooter">Email: chamberuruguay@gmail.com</p>
+        <p class="pfooter">Giovanni Canavesi - WDD 230</p>
+        <p class="pfooter" id="lastMod"></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>
