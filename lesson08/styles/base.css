@@ -1,0 +1,20 @@
+:root {
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 10px auto;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
