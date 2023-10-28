@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Form Builded">
+    <meta name="author" content="Giovanni Canavesi">
+    
+    <meta property="og:url" content="https://vickygiovibyu.github.io/wdd230/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Form Builded" />
+    <meta property="og:description" content="Example of a HTML Form" />
+    <meta property="og:image" content="https://www.novell.com/documentation/novellaccessmanager/adminguide/graphics/form_fill_test_a.png" />
+
+    <link rel="icon" href="favicon.ico">
+    <title>Form</title>
     <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
@@ -17,11 +27,12 @@
                 <label class="top">Username* <input type="text" id="username" name="username" required></label>
                 <label class="top">Password* <input type="password" id="password" name="password" required pattern=".{8,}"></label>
                 <label class="top">Repeat Password* <input type="password" id="passwordRepeat" name="passwordRepeat" required></label>
-                <label class="top">Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></labe>
+                <label class="top">Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
 
-                <label for="r">INPUT: range, min, max, datalist, required</label>
+                <label for="r"> <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues"> INPUT: range, min, max, datalist, required</label>
+                
                 <div id="rangevalue">0</div>
-                <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                
                 <datalist id="rangevalues">
                     <option value="1">1</option>
                     <option value="2">2</option>
