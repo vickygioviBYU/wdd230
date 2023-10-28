@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <p id="message"></p>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Registration</legend>
+                <label class="top">Username* <input type="text" id="username" name="username" required></label>
+                <label class="top">Password* <input type="password" id="password" name="password" required pattern=".{8,}"></label>
+                <label class="top">Repeat Password* <input type="password" id="passwordRepeat" name="passwordRepeat" required></label>
+                <label class="top">Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></labe>
+
+                <label for="r">INPUT: range, min, max, datalist, required</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+            </fieldset>
+            
+            <input class="submitBtn" type="submit" value="Register">
+        </form>
+    </main>
+    <footer></footer>
+    <script src="scripts/phrasesMatch.js"></script>
+</body>
+</html>
