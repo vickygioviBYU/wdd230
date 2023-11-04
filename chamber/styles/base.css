@@ -29,7 +29,19 @@
 
 /*FORM*/
 
+.toggleGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 10px;
+}
 
+.members {
+    text-align: center;
+}
+
+.members p {
+    font-weight: 600;
+}
 
 .textarea {
     display: block;
