@@ -2,7 +2,7 @@ const baseURL = "https://vickygiovibyu.github.io/wdd230/"
 
 const linksURL = "https://vickygiovibyu.github.io/wdd230/data/links.json"
 
-// const linksURL = "../data/links.json"
+// const linksURL = "./data/links.json"
 
 async function getLinks() {
     const results = await fetch(linksURL)
