@@ -1,3 +1,10 @@
+const banner = document.querySelector('#divBanner')
+const bannerButton = document.querySelector('#bannerToggle')
+
+bannerButton.addEventListener('click', () => {
+    banner.classList.toggle('hide');
+})
+
 let oLastModif = new Date(document.lastModified);
 document.querySelector("#lastMod").innerHTML = oLastModif;
 

@@ -46,20 +46,24 @@
         <ul class="navigation">
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <button id="toggleDarkMode">Toggle Dark Mode</button>
     <main>
+        <div id="divBanner">
+            <p>Do you like to join us in our meet and greet on Wednesday at 7:00 p.m?</p>
+            <button id="bannerToggle">X</button>
+        </div>
         <div class="hero">
             <picture>
                 <source media="(max-width: 700px)" srcset="images/hero-small.webp">
                 <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
                 <img class="img-hero" src="images/hero-large.webp" alt="Large Image Week 06">
-                <span>Our Chamber</span>
+                
             </picture>
-            
+            <span>Our Chamber</span>
         </div>
         <div class="community-news">
             <div class="community-news-child">
@@ -82,11 +86,15 @@
                     Temperature: <strong id="temperature">40</strong> ºF
                 </h3>
                 <h3>
+                    <strong id="description"></strong>
+                </h3>
+                <h3>
                     Windspeed: <strong id="windspeed">35</strong> MPH
                 </h3>
                 <h3>
                     Windchill: <strong id="windchill"></strong> ºF
                 </h3>
+                <h3 id="forecast"></h3>
             </div>
         </div>
         <div class="calls">
@@ -103,7 +111,6 @@
         <p class="pfooter">Giovanni Canavesi - WDD 230</p>
         <p class="pfooter" id="lastMod"></p>
     </footer>
-    <script src="scripts/main.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>

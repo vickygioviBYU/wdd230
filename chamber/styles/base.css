@@ -9,6 +9,10 @@
     --label-top-color: #5B1A0B;
 }
 
+.hide {
+    display: none;
+}
+
 /*----------- BODY --------------*/
 
 
