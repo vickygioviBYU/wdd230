@@ -1,3 +1,25 @@
+{/* <div id="divBanner">
+    <p>Do you like to join us in our meet and greet on Wednesday at 7:00 p.m?</p>
+    <button id="bannerToggle">X</button>
+</div> */}
+
+const divInsideBanner = document.querySelector('#divInsideBanner')
+
+const date = new Date()
+
+if (date.getDay() == 1 | date.getDay() == 2 | date.getDay() == 3) {
+    const div = document.createElement("div")
+    const p = document.createElement("p")
+    const button = document.createElement("button")
+    div.setAttribute("id", "divBanner")
+    button.setAttribute("id", "bannerToggle")
+    p.textContent = "Do you like to join us in our meet and greet on Wednesday at 7:00 p.m?"
+    button.textContent = "X"
+    div.appendChild(p)
+    div.appendChild(button)
+    divInsideBanner.appendChild(div)
+}
+
 const banner = document.querySelector('#divBanner')
 const bannerButton = document.querySelector('#bannerToggle')
 
