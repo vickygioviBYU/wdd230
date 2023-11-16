@@ -90,7 +90,7 @@ form label.top input, form label.top select {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+    width: 240px;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -112,6 +112,7 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
     margin-left: 20px;
+    width: 280px;
 }
 
 form input.submitBtn:hover {
