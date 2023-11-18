@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
     <link rel="icon" href="images/favicon.ico">
-    <meta name="description" content="Website of the Chamber of Commerce of Uruguay - Join Us">
+    <meta name="description" content="Website of the Chamber of Commerce of Montevideo - Join Us">
     <meta name="author" content="Giovanni Canavesi">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Chamber of Commerce of Uruguay">
+    <meta property="og:title" content="Chamber of Commerce of Montevideo">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://montevideo.gub.uy/sites/default/files/biblioteca/dsc0263_1.jpg">
     <meta property="og:url" content="https://www.cncs.com.uy/">
@@ -33,13 +33,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 
-    <title>Chamber of Commerce of Uruguay - Join</title>
+    <title>Chamber of Commerce of Montevideo - Join</title>
     
 </head>
 <body>
     <header>
         <img src="images/logo.webp" alt="Logo">
-        <h1>Chamber of Commerce of Uruguay</h1>
+        <h1>Chamber of Commerce of Montevideo</h1>
     </header>
     <a id="menu" href="#"></a>
     <nav> 
@@ -47,7 +47,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <button id="toggleDarkMode">Toggle Dark Mode</button>
@@ -70,7 +70,7 @@
                 <label class="textarealabel">Organization's Description <textarea class="textarea" name="description" id="description" cols="30" rows="10"></textarea></label>
                 <label><input type="hidden" name="timestamp" id="timestamp"></label>
     
-                <input class="submitBtn" type="submit" value="Join to the Chamber">
+                <input id="submitBtn" class="submitBtn" type="submit" value="Join to the Chamber">
             </form>
             <div class="sideform">
                 <h2>Membership Benefits</h2>

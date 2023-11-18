@@ -24,6 +24,7 @@ const displayMembers = (members) => {
         phone.textContent = member.Phone;
         website.textContent = member.Website;
         image.setAttribute("src", member.Image);
+        image.setAttribute("alt", name);
         image.setAttribute("width", "280")
         image.setAttribute("height", "auto")
         membership.textContent = member.Membership + " Membership";

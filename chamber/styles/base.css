@@ -9,9 +9,58 @@
     --label-top-color: #5B1A0B;
 }
 
+.active {
+    background-color: lightgrey;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dark-mode-h2 {
+    background-color: #662549;
+}
+
+.dark-mode-h2-community {
+    background-color: #662549;
+}
+
+.dark-mode-h2-weather {
+    background-color: #662549;
+}
+
+.dark-mode-h2-b1 {
+    background-color: #662549;
+}
+
+.dark-mode-h2-b2 {
+    background-color: #662549;
+}
+
+.dark-mode-h2-thankyou {
+    background-color: #662549;
+}
+
 .hide {
     display: none;
 }
+
+h2 {
+    background-color: var(--secondary-color);
+    border: 1px solid black;
+}
+
+.dark-mode-label {
+    color:white;
+}
+
+form label {
+    text-align: left;
+    /* color: var(--label-top-color) */
+}
+
+
 
 /*----------- BODY --------------*/
 
@@ -64,9 +113,7 @@ form fieldset {
     padding: .5rem 2%;
 }
 
-form label {
-    text-align: left;
-}
+
 
 form legend {
     color: var(--form-fieldset);
@@ -77,7 +124,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: var(--label-top-color);
+    /* color: var(--label-top-color); */
     font-size: .8rem;
     margin-left: 20px;
     max-width: 200px;
@@ -98,7 +145,6 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
     margin-left: 20px;
 }
 
@@ -114,6 +160,10 @@ form input.submitBtn {
     margin-left: 20px;
     width: 280px;
 }
+
+
+
+
 
 form input.submitBtn:hover {
     background-color: darkred;
@@ -213,7 +263,13 @@ main {
     grid-template-columns: 1fr;
 }
 
+.main {
+    margin: 20px;
+}
 
+#grid {
+    margin-top: 10px;
+}
 
 form {
     grid-column: 1 / 2;
@@ -221,6 +277,7 @@ form {
 
 .sidebar {
     display: none;
+    margin: 20px;
 }
 
 .community-news {
@@ -312,14 +369,11 @@ footer {
     text-align: center;
 }
 
-h2 {
-    background-color: var(--secondary-color);
-    border: 1px solid black;
-}
 
-.dark-mode-h2 {
-    background-color: #662549;
-}
+
+
+
+
 
 .hero {
     text-align: center;
@@ -346,4 +400,12 @@ header img {
 
 .lastImg {
     margin-bottom: 20px;
+}
+
+#business1 {
+    text-align: center;
+}
+
+#business2 {
+    text-align: center;
 }

@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1000px) {
-
+    #forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     .mainDiscover {
         display: grid;
