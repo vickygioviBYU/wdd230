@@ -1,8 +1,8 @@
 const main = document.querySelector(".members")
 
 async function getMembers() {
-    // const response = await fetch("https://vickygiovibyu.github.io/wdd230/chamber/data/members.json")
-    const response = await fetch("./data/members.json")
+    const response = await fetch("https://vickygiovibyu.github.io/wdd230/chamber/data/members.json")
+    // const response = await fetch("./data/members.json")
     const data = await response.json();
     displayMembers(data)
 }
