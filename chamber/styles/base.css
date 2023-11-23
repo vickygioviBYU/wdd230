@@ -369,9 +369,14 @@ footer {
     text-align: center;
 }
 
+.joinButton {
+    margin: 0 auto;
+}
 
-
-
+#divBanner {
+    background-color: #5B1A0B;
+    color:white
+}
 
 
 
