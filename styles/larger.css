@@ -1,17 +1,31 @@
 @media screen and (min-width: 700px) {
     
+    footer {
+        max-width: 1000px;
+        width: 1000px;
+    }
+
     nav ul{
         display: flex;
         justify-content: space-evenly;
     }
 
-    
+    nav {
+        max-width: 1000px;
+        width: 1000px;
+    }
+
+    header {
+        max-width: 1000px;
+        width: 1000px;
+    }
 
     main {
         display: grid;
         grid-template-columns: auto auto;
         gap: 1em;
         max-width: 960px;
+        width: 960px;
     }
 
     h2 {
@@ -26,6 +40,7 @@
     }
     body {
         width: 1000px;
+        max-width: 1000px;
     }
 
     #menu {

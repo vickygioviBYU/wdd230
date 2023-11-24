@@ -1,14 +1,134 @@
 {
     "lessons": [
-        {"lesson": "01", "links": [{"url": "", "title": "Holy Layout"}, {"url": "", "title": "JS Pen"}, {"url": "lesson01/media-query.html", "title": "Lesson 1"}]},
-        {"lesson": "02", "links": [{"url": "", "title": "Media Query"}, {"url": "lesson02/design.html", "title": "Design Principles Document"}]},
-        {"lesson": "03", "links": [{"url": "CSSCombinators/images/CSSCombinators.JPG", "title": "CSS Combinators"}, {"url": "CSSPseudo-Elements/index.html", "title": "CSS Pseudo-Elements"}, {"url": "https://codepen.io/Giovanni-Adrian-Canavesi-Calcagno/pen/gOZvKKe", "title": "CSS Responsive"}, {"url": "lesson03/chamber-site-plan.html", "title": "Chamber Site Plan"}, {"url": "lesson03/lazyload.html", "title": "Lazyload"}]},
-        {"lesson": "04", "links": [{"url": "https://codepen.io/Giovanni-Adrian-Canavesi-Calcagno/pen/rNoZOMo", "title": "CSS Pseudo-Classes"}]},
-        {"lesson": "05", "links": [{"url": "lesson05/bom.html", "title": "Book of Mormon Favorite Chapters Application"}, {"url": "lesson05/new-ward-members.json", "title": "JSON"}]},
-        {"lesson": "06", "links": [{"url": "lesson06/images/landscape.webp", "title": "WebP"}, {"url": "lesson06/responsive-images.html", "title": "Responsive Images"}]},
-        {"lesson": "07", "links": [{"url": "lesson07/bom.html", "title": "LocalStorage"}]},
-        {"lesson": "08", "links": [{"url": "lesson08/tablebuild.html", "title": "Table Build"}, {"url": "lesson08/form-start/index.html", "title": "Form Start"}, {"url": "form.html", "title": "Form Build"}]},
-        {"lesson": "09", "links": [{"url": "lesson05/prophets.html", "title": "Prophets"}]},
-        {"lesson": "10", "links": [{"url": "lesson10/weather.html", "title": "Weather"}]}
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "",
+                    "title": "Holy Layout"
+                },
+                {
+                    "url": "",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "CSSCombinators/images/CSSCombinators.JPG",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "CSSPseudo-Elements/index.html",
+                    "title": "CSS Pseudo-Elements"
+                },
+                {
+                    "url": "https://codepen.io/Giovanni-Adrian-Canavesi-Calcagno/pen/gOZvKKe",
+                    "title": "CSS Responsive"
+                },
+                {
+                    "url": "lesson03/chamber-site-plan.html",
+                    "title": "Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Giovanni-Adrian-Canavesi-Calcagno/pen/rNoZOMo",
+                    "title": "CSS Pseudo-Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "Book of Mormon Favorite Chapters Application"
+                },
+                {
+                    "url": "lesson05/new-ward-members.json",
+                    "title": "JSON"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "LocalStorage"
+                },
+                {
+                    "url": "lesson03/lazyload.html",
+                    "title": "Lazyload"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "lesson08/form-start/index.html",
+                    "title": "Form Start"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form Build"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson05/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "lesson10/weather.html",
+                    "title": "Weather"
+                }
+            ]
+        }
     ]
 }

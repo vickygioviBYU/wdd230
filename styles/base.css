@@ -9,6 +9,10 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .active {
     background-color: black;
 }
@@ -20,6 +24,7 @@ body {
     font-family: Roboto;
     width: 600px;
     margin: 0 auto;
+    max-width: 483px;
 }
 
 header {
@@ -32,12 +37,14 @@ header {
     gap: 2em;
     padding: 2em;
     background-color: var(--accent-1);
+    max-width: 483px;
 }
 
 nav {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
     background-color: #222222;
+    max-width: 483px;
 }
 
 #menu {
@@ -85,6 +92,7 @@ nav {
 main {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
+    max-width: 483px;
 }
 
 footer {
@@ -92,6 +100,7 @@ footer {
     grid-column: 1 / 2;
     background-color: var(--accent-1);
     margin-top: 10px;
+    max-width: 483px;
 }
 
 ul li {
@@ -172,11 +181,12 @@ iframe {
 
 .iframe-base {
     display: block;
+    max-width: 483px;
 }
 
 .img-center {
     margin: 20px;
-    width: auto;
+    width: 400px;
     height: 250px;
 }
 
