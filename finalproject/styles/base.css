@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+	background-color: #FFF5C2;
+}
+
+.active {
+	background-color: grey;
+}
+
+#cozumel, #cozumel2 {
+	display: block;
+	margin: 10px auto;
+}
+
+header {
+	text-align: center;
+	background-color: #6DB9EF;
+}
+
+footer {
+	text-align: center;
+	background-color: #0000DB;
+	padding: 5px;
+	color: white;
+}
+
+main {
+	text-align: center;
+	background-color: #F4F27E;
+}
+
+h2 {
+	margin: 20px;
+}
+
+h3 {
+	margin: 20px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+	background-color: #6DB9EF;
+}
+
+
+/* Mobile View ***************/
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: #F4F27E;
+	margin-bottom: 20px;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+button {
+	height: 48px;
+	width: 300px;
+	color: white;
+	background-color: #3081D0;
+	border: 2px solid black;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	height: 48px;
+	width: 300px;
+	color: #3081D0;
+	background-color: white;
+	border: 2px solid grey;
+	font-size: 24px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+#div1 {
+	background-color: #6DB9EF;
+	padding: 5px;
+	height: 200px;
+}
+
+#div2 {
+	background-color: #FFF5C2;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 200px;
+}
+
+a {
+	color: white;
+}
+
+h4, ul {
+	margin: 20px;
+}
