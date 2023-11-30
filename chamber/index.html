@@ -57,8 +57,8 @@
         </div>
         <div class="hero">
             <picture>
-                <source media="(max-width: 700px)" alt="Small Image Week 06" srcset="images/edificio-small.webp">
-                <source media="(max-width: 1000px)" alt="Medium Image Week 06" srcset="images/edificio-medium.webp">
+                <source media="(max-width: 700px)" srcset="images/edificio-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/edificio-medium.webp">
                 <img class="img-hero" src="images/edificio-large.webp" alt="Large Image Week 06">
                 
             </picture>
@@ -96,7 +96,9 @@
             </div>
         </div>
         <div class="calls">
-            <a class="joinButton" href="join.html"><button>Be Part of Our Chamber!</button></a>
+            <form action="join.html" method="get">
+                <button class="joinButton">Be Part of Our Chamber!</button>
+            </form>
         </div>
         <div class="businesses">
             <h2 id="spotlights">Spotlights</h2>
