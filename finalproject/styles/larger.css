@@ -26,4 +26,17 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+
+	#pricing {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.mainReservation {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+		align-items: center;
+		justify-content: center;
+	}
 }

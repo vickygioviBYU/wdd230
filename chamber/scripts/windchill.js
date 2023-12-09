@@ -64,8 +64,8 @@ try {
     function displayResultsForecast(data) {
         let count = 0
         data.list.forEach(elem => {
-            count++
-            if (count < 25) {
+            
+            if (count == 8 || count == 16 || count == 24) {
                 let day = elem.dt_txt
                 let max = elem.main.temp_max - 273
                 let min = elem.main.temp_min - 273
@@ -76,11 +76,22 @@ try {
                 image.setAttribute("alt", "weather icon")
                 image.setAttribute("height", "200")
                 image.setAttribute("width", "200")
-                element.textContent = day + ": " + " MAX: " + Math.round(max) + " °C MIN: " + Math.round(min) + " °C"
+
+                if (count == 8) {
+                    element.textContent = "24 Hours: " + " MAX: " + Math.round(max) + " °C MIN: " + Math.round(min) + " °C"
+                } else if (count == 16) {
+                    element.textContent = "48 Hours: " + " MAX: " + Math.round(max) + " °C MIN: " + Math.round(min) + " °C"
+                } else {
+                    element.textContent = "72 Hours: " + " MAX: " + Math.round(max) + " °C MIN: " + Math.round(min) + " °C"
+                }
+
+                
                 section.appendChild(element)
                 section.appendChild(image)
                 forecast.appendChild(section)
             }
+
+            count++
         });
     }
 } catch (Ex) {
